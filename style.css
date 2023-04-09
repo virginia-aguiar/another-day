@@ -1,0 +1,113 @@
+body {
+    background-color: #cfd9db;
+    margin: unset;
+}
+
+header{
+  padding:2%;
+  background-color: #1F968B;
+  background-image: linear-gradient(to bottom right, #238A8D, #440D54);
+  margin:0 0 30px 0;
+  color: #eeeeee;
+  font-size: 24px;
+}
+
+.footer{
+  background-image: linear-gradient(to bottom right, #238A8D, #440D54);
+  color: #eee;
+  margin: auto;
+  padding:10px 0 20px 0;
+  font-size: 16px;
+}
+
+h1, h4, h5 {
+  font-family: "Montserrat SemiBold";
+  text-align: center;
+  margin: 12px 12px 12px 0;
+}
+h3 {
+  font-family: "Montserrat SemiBold";
+  text-align: center;
+  margin: .5px;
+}
+
+h2 {
+  font-family: "Montserrat SemiBold";
+  text-align: left;
+  border-radius: 20px;
+  margin: 12px 12px 12px 32px;
+}
+
+h6{
+  font-family: "Montserrat SemiBold";
+  font-size: 16px;
+}
+
+p, A{
+  font-family: Montserrat;
+  margin: 12px 12px 12px 32px;
+}
+
+.happy_card{
+  margin : auto;
+  width : 16%;
+  background-color : #eee;
+  padding: 8px 16px 12px 16px;
+  border-style: solid;
+  border-width:2px;
+  border-color:#FDE725;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.sad_card{
+  margin : auto;
+  width : 16%;
+  background-color : #eee;
+  padding: 8px 16px 12px 16px;
+  border-style: solid;
+  border-width:2px;
+  border-color: #440D54;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.happy_card span{
+  font-family: Montserrat;
+  text-align: center;
+  padding: 4px;
+  background-color: #FDE725;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.sad_card span{
+  font-family: Montserrat;
+  text-align: center;
+  padding: 4px;
+  background-color: #440D54;
+  border-radius: 2px;
+  font-weight: bold;
+  color: #eeeeee;
+}
+
+@media (max-width: 900px) {
+  .row {
+    display: block;
+  }
+}
+
+.pretty_box {
+  padding: .5%;
+  border-radius: 20px;
+  background-color: #1F968B;
+  margin: 20px;
+}
+
+.compare {
+  padding:8px;
+  background-color: #100015;
+  #background-image: linear-gradient(to bottom right, #238A8D, #440D54);
+  margin:0 0 0 0;
+  color: #eeeeee;
+}
